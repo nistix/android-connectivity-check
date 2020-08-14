@@ -1,0 +1,2 @@
+# Android connectivity check library 
+
