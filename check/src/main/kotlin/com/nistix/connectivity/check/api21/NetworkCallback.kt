@@ -14,7 +14,6 @@ internal class NetworkCallback(listener: (Boolean) -> Unit) : ConnectivityManage
   private val availableNetworks = mutableSetOf<String>()
 
   override fun onAvailable(network: Network) {
-    val s: String = network.toString()
     Log.d(TAG, "NetworkCallback.onAvailable(): network=$network)")
     super.onAvailable(network)
     availableNetworks.add(network.toString())
@@ -22,7 +21,6 @@ internal class NetworkCallback(listener: (Boolean) -> Unit) : ConnectivityManage
   }
 
   override fun onLost(network: Network) {
-    val s: String = network.toString()
     Log.d(TAG, "NetworkCallback.onLost(): network=$network)")
     super.onLost(network)
     availableNetworks.remove(network.toString())
