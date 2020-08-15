@@ -5,6 +5,7 @@ plugins {
 
 android {
   compileSdkVersion(30)
+  buildToolsVersion("30.0.2")
 
   defaultConfig {
     applicationId = "com.nistix.connectivity.demo"
@@ -34,6 +35,8 @@ android {
 }
 
 dependencies {
+  implementation(project(":check"))
+  implementation(project(":adapter-livedata"))
   implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
   implementation("androidx.core:core-ktx:1.3.1")
   implementation("androidx.appcompat:appcompat:1.2.0")
