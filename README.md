@@ -1,9 +1,9 @@
 # Android connectivity check library 
 
 This Android library provides a simple API about network connectivity changes: connected to any network or disconnected.
-Library has a core module `com.nistix.connectivity.check:core`
+Library has a core module `com.nistix.connectivity-check:core`
 and a set of adapters as well:
-* LiveData: `com.nistix.connectivity.check:adapter-livedata`
+* LiveData: `com.nistix.connectivity-check:adapter-livedata`
 * RxJava2 (coming soon)
 * Kotlin Flow  (coming soon)
 
