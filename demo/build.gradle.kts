@@ -35,8 +35,6 @@ android {
 }
 
 dependencies {
-  implementation(project(":check"))
-  implementation(project(":adapter-livedata"))
   implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
   implementation("androidx.core:core-ktx:1.3.1")
   implementation("androidx.appcompat:appcompat:1.2.0")
@@ -48,4 +46,7 @@ dependencies {
   implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
   implementation("androidx.navigation:navigation-fragment-ktx:2.3.0")
   implementation("androidx.navigation:navigation-ui-ktx:2.3.0")
+
+  implementation("com.nistix.connectivity-check:core:1.0.0")
+  implementation("com.nistix.connectivity-check:adapter-livedata:1.0.0")
 }
