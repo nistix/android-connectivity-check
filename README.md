@@ -12,6 +12,8 @@ and a set of adapters as well:
 
 There is a **demo app** in the module `demo`.
 
+![](screen-demo-app.png)
+
 The simple usage with LiveData:
 
 ```kotlin
