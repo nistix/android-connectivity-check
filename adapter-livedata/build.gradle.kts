@@ -7,8 +7,8 @@ plugins {
   id("com.jfrog.bintray") version "1.8.5"
 }
 
-val libVersionCode = 1
-val libVersionName = "1.0.0"
+val libVersionCode = 2
+val libVersionName = "1.0.2"
 val libBintrayRepo = "maven"
 val libGroupId = "com.nistix.connectivity-check"
 val libArtifactId = "adapter-livedata"
