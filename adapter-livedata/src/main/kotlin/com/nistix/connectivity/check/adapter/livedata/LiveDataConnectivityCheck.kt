@@ -11,19 +11,16 @@ val ConnectivityCheck.LiveData: LiveData<Boolean>
 private val state = RefCountLiveData.distinct()
 
 private object RefCountLiveData : MutableLiveData<Boolean>() {
-
-  init {
-    ConnectivityCheck.manager.listeners.add(::postValue)
-  }
+  private val listener = ::postValue
 
   override fun onActive() {
     super.onActive()
-    ConnectivityCheck.manager.startListening()
+    ConnectivityCheck.manager.addListener(listener)
   }
 
   override fun onInactive() {
     super.onInactive()
-    ConnectivityCheck.manager.stopListening()
+    ConnectivityCheck.manager.removeListener(listener)
   }
 
 }

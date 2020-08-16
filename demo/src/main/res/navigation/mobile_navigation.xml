@@ -21,4 +21,11 @@
       tools:layout="@layout/connectivity_status_fragment"
       />
 
+  <fragment
+      android:id="@+id/nav_rxjava2"
+      android:name="com.nistix.connectivity.demo.rxjava2.RxJava2Fragment"
+      android:label="@string/adapter_rxjava2"
+      tools:layout="@layout/connectivity_status_fragment"
+      />
+
 </navigation>

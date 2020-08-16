@@ -16,6 +16,12 @@
         android:icon="@drawable/ic_livedata"
         android:title="@string/adapter_livedata"
         />
+
+    <item
+        android:id="@+id/nav_rxjava2"
+        android:icon="@drawable/ic_rxjava2"
+        android:title="@string/adapter_rxjava2"
+        />
   </group>
 
 </menu>

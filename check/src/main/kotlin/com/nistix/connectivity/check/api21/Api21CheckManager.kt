@@ -20,7 +20,12 @@ internal class Api21CheckManager(context: Context) : CheckManager() {
   override fun startListening() {
     Log.d(TAG, "Api21CheckManager.startListening()")
 
-    if (!isConnectedNow()) isConnected = false
+    if (!isConnectedNow()) {
+      Log.d(TAG, "Api21CheckManager.isConnectedNow() = false")
+      isConnected = false
+    } else {
+      Log.d(TAG, "Api21CheckManager.isConnectedNow() = true")
+    }
 
     val newCallback = NetworkCallback(listener)
     callback.getAndSet(newCallback)?.let { prevCallback -> manager?.unregisterNetworkCallback(prevCallback) }

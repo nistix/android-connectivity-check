@@ -1,4 +1,5 @@
 include(":adapter-livedata")
+include(":adapter-rxjava2")
 include(":check")
-include( ":demo")
+include(":demo")
 rootProject.name = "Connectivity"

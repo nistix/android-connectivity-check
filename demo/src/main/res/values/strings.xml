@@ -12,5 +12,6 @@
   <string name="menu_slideshow">Slideshow</string>
 
   <string name="adapter_livedata">LiveData</string>
+  <string name="adapter_rxjava2">RxJava2</string>
 
 </resources>
