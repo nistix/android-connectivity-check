@@ -22,9 +22,18 @@ ConnectivityCheck.LiveData.observe(viewLifecycleOwner, Observer { isConnected ->
 
 ## Download
 
+KotlinDSL:
+
 ```kotlin
 implementation("com.nistix.connectivity-check:core:1.0.0")
 implementation("com.nistix.connectivity-check:adapter-livedata:1.0.0")
+```
+
+Groovy:
+
+```groovy
+implementation 'com.nistix.connectivity-check:core:1.0.0'
+implementation 'com.nistix.connectivity-check:adapter-livedata:1.0.0'
 ```
 
 ## License
