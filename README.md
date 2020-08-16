@@ -43,15 +43,23 @@ subscriptions.clear()
 KotlinDSL:
 
 ```kotlin
-implementation("com.nistix.connectivity-check:core:1.0.0")
-implementation("com.nistix.connectivity-check:adapter-livedata:1.0.0")
+// Required
+implementation("com.nistix.connectivity-check:core:1.0.2")
+// If you need LiveData
+implementation("com.nistix.connectivity-check:adapter-livedata:1.0.2")
+// If you need RxJava2
+implementation("com.nistix.connectivity-check:adapter-rxjava2:1.0.2")
 ```
 
 Groovy:
 
 ```groovy
-implementation 'com.nistix.connectivity-check:core:1.0.0'
-implementation 'com.nistix.connectivity-check:adapter-livedata:1.0.0'
+// Required
+implementation 'com.nistix.connectivity-check:core:1.0.2'
+// If you need LiveData
+implementation 'com.nistix.connectivity-check:adapter-livedata:1.0.2'
+// If you need RxJava2
+implementation 'com.nistix.connectivity-check:adapter-rxjava2:1.0.2'
 ```
 
 ## License
