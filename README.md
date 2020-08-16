@@ -5,7 +5,7 @@ This Android library provides a simple API about network connectivity changes: c
 Library has a core module `com.nistix.connectivity-check:core`
 and a set of adapters as well:
 * LiveData: `com.nistix.connectivity-check:adapter-livedata`
-* RxJava2 (coming soon)
+* RxJava2 `com.nistix.connectivity-check:adapter-rxjava2`
 * Kotlin Flow  (coming soon)
 
 ## Usage
