@@ -22,6 +22,22 @@ ConnectivityCheck.LiveData.observe(viewLifecycleOwner, Observer { isConnected ->
 })
 ```
 
+The simple usage with RxJava2
+
+```kotlin
+private val subscriptions = CompositeDisposable()
+...
+subscriptions.add(
+    ConnectivityCheck.RxJava2
+        .observeOn(AndroidSchedulers.mainThread())
+        .subscribe { isConnected ->
+            statusTextView.text = if (isConnected) "CONNECTED" else "NOT CONNECTED"
+        }
+    )
+...
+subscriptions.clear()
+```
+
 ## Download
 
 KotlinDSL:
