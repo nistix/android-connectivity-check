@@ -44,22 +44,22 @@ KotlinDSL:
 
 ```kotlin
 // Required
-implementation("com.nistix.connectivity-check:core:1.0.2")
+implementation("com.nistix.connectivity-check:core:1.0.3")
 // If you need LiveData
-implementation("com.nistix.connectivity-check:adapter-livedata:1.0.2")
+implementation("com.nistix.connectivity-check:adapter-livedata:1.0.3")
 // If you need RxJava2
-implementation("com.nistix.connectivity-check:adapter-rxjava2:1.0.2")
+implementation("com.nistix.connectivity-check:adapter-rxjava2:1.0.3")
 ```
 
 Groovy:
 
 ```groovy
 // Required
-implementation 'com.nistix.connectivity-check:core:1.0.2'
+implementation 'com.nistix.connectivity-check:core:1.0.3'
 // If you need LiveData
-implementation 'com.nistix.connectivity-check:adapter-livedata:1.0.2'
+implementation 'com.nistix.connectivity-check:adapter-livedata:1.0.3'
 // If you need RxJava2
-implementation 'com.nistix.connectivity-check:adapter-rxjava2:1.0.2'
+implementation 'com.nistix.connectivity-check:adapter-rxjava2:1.0.3'
 ```
 
 ## License
