@@ -44,13 +44,13 @@ dependencies {
   implementation(Libraries.kotlinStdLibJdk8)
 
   implementation(Libraries.appCompatLatest)
-  implementation(Libraries.constraintLayoutDev)
+  implementation(Libraries.constraintLayoutLatest)
   implementation(Libraries.coreLatest)
   implementation(Libraries.lifecycleLiveDataLatest)
   implementation(Libraries.lifecycleViewModelLatest)
   implementation(Libraries.materialLatest)
-  implementation(Libraries.navigationFragmentDev)
-  implementation(Libraries.navigationUiDev)
+  implementation(Libraries.navigationFragmentLatest)
+  implementation(Libraries.navigationUiLatest)
 
   implementation(Libraries.rxAndroid)
   implementation(Libraries.rxJava2)

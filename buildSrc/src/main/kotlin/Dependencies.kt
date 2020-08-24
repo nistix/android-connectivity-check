@@ -35,7 +35,7 @@ object AndroidSdk {
 object Libraries {
   public object Versions {
     const val appcompatLatest = "1.3.0-alpha02"
-    const val constraintLayoutLatest = "2.0.0-rc1"
+    const val constraintLayoutLatest = "2.0.0"
     const val coreLatest = "1.5.0-alpha02"
     const val lifecycleLatest = "2.3.0-alpha07"
     const val materialLatest = "1.3.0-alpha02"
@@ -47,14 +47,14 @@ object Libraries {
   const val kotlinStdLibJdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
 
   const val appCompatLatest = "androidx.appcompat:appcompat:${Versions.appcompatLatest}"
-  const val constraintLayoutDev = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayoutLatest}"
+  const val constraintLayoutLatest = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayoutLatest}"
   const val coreLatest = "androidx.core:core-ktx:${Versions.coreLatest}"
   const val lifecycleLiveDataLatest = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleLatest}"
   const val lifecycleLiveDataCoreLatest = "androidx.lifecycle:lifecycle-livedata-core-ktx:${Versions.lifecycleLatest}"
   const val lifecycleViewModelLatest = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleLatest}"
   const val materialLatest = "com.google.android.material:material:${Versions.materialLatest}"
-  const val navigationFragmentDev = "androidx.navigation:navigation-fragment-ktx:$navigationLatest"
-  const val navigationUiDev = "androidx.navigation:navigation-ui-ktx:$navigationLatest"
+  const val navigationFragmentLatest = "androidx.navigation:navigation-fragment-ktx:$navigationLatest"
+  const val navigationUiLatest = "androidx.navigation:navigation-ui-ktx:$navigationLatest"
 
   const val rxAndroid = "io.reactivex.rxjava2:rxandroid:${Versions.rxAndroid}"
   const val rxJava2 = "io.reactivex.rxjava2:rxjava:${Versions.rxJava2}"
